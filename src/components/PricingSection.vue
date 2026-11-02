@@ -15,9 +15,9 @@
         <div class="plan-heading">
           <h3>{{ plan.name }}</h3>
 
-          <p v-if="plan.subtitle" class="plan-subtitle">
+          <!-- <p v-if="plan.subtitle" class="plan-subtitle">
             {{ plan.subtitle }}
-          </p>
+          </p> -->
         </div>
 
         <!-- Price -->
@@ -63,6 +63,7 @@
     {
       name: 'Our #1 DIY Digital Marketing Guide',
       price: '$19.99',
+      note: 'Donnot miss this limited time offer!',
       theme: 'plan-white',
       button: 'Buy the guide',
       buttonClass: 'plan-outline',
@@ -79,6 +80,7 @@
     {
       name: 'VIP Pass to Our Marketing Masters Webinar Group',
       price: '$39.99',
+      note: 'Donnot miss this limited time offer!',
       theme: 'plan-peach',
       button: 'Get a VIP pass',
       buttonClass: 'plan-outline',
